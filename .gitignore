@@ -1,2 +1,2 @@
-logs/
-app/sql/
+logs/*
+app/sql/*
