@@ -1,2 +1,3 @@
+logs/apache/access.log
 logs/*
 app/sql/*
