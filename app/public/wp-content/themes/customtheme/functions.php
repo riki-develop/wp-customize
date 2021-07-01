@@ -16,6 +16,7 @@ add_action('init', function() {
 		'menu_icon' => 'dashicons-store',
 		'supports' => ['thumbnail', 'title', 'editor'],
 		'has_archive' => true,
+		'show_in_rest' => true,
 	]);
 });
 
