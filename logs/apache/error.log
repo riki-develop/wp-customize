@@ -14,3 +14,6 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using rikinoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
 [Sun Jul 04 16:22:00.497127 2021] [mpm_event:notice] [pid 11200:tid 4566062528] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Sun Jul 04 16:22:00.497434 2021] [core:notice] [pid 11200:tid 4566062528] AH00094: Command line: '/Users/riki/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/riki/Library/Application Support/Local/run/Irmeiriej/conf/apache/apache2.conf'
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using rikinoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
+[Thu Jul 08 08:39:25.743695 2021] [mpm_event:notice] [pid 938:tid 4487783872] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Thu Jul 08 08:39:25.744040 2021] [core:notice] [pid 938:tid 4487783872] AH00094: Command line: '/Users/riki/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/riki/Library/Application Support/Local/run/Irmeiriej/conf/apache/apache2.conf'

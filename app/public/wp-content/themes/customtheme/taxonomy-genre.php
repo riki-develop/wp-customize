@@ -15,7 +15,7 @@ get_header();
 		<?php if ( have_posts() ) : ?>
 
 		<header class="page-header">
-			<h1>ショップ一覧</h1>
+			<h1>商品一覧</h1>
             <h2><?php the_archive_title(); ?></h2>
 		</header><!-- .page-header -->
 
