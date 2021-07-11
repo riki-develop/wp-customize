@@ -1,4 +1,4 @@
-<p>商品名：<?php the_title(); ?></p>
+<!-- <p>商品名：<?php the_title(); ?></p> -->
 
 <?php $price = get_post_meta(get_the_ID(), '価格', true); ?>
 <?php $publisher = get_post_meta(get_the_ID(), '出版社', true); ?>

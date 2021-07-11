@@ -12,7 +12,7 @@ get_header();
 
 	<main id="primary" class="site-main col-md-8">
 		<h1>商品詳細</h1>
-		<p>商品名：　<?php the_title(); ?></p>
+		<p>商品名：<?php the_title(); ?></p>
 
 		<?php $termes = get_the_terms(get_the_ID(), 'genre'); ?>
 		<?php if ($termes): ?>
