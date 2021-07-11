@@ -2,6 +2,8 @@
 
 <?php $price = get_post_meta(get_the_ID(), '価格', true); ?>
 <?php $publisher = get_post_meta(get_the_ID(), '出版社', true); ?>
+<?php $writer = get_post_meta(get_the_ID(), '著者', false); ?>
+
 <dl class="table">
 	<?php if($price !== ''): ?>
 		<dt>価格</dt>
@@ -11,4 +13,11 @@
 		<dt>出版社</dt>
 		<dd><?php echo esc_html($publisher); ?></dd>
 	<?php endif; ?>
+	<?php if($writer): ?>
+		<dt>
+			<?php foreach($writer as $w): ?>
+				<dd><?php echo esc_html($w); ?></dd>
+			<?php endforeach; ?>
+		</dt>
+	<?php endif;?>
 </dl>
