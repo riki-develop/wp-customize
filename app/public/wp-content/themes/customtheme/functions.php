@@ -7,6 +7,11 @@
  * @package customtheme
  */
 
+// ショートコードを定義
+add_shortcode('date', function() {
+	return date('Y年 n月 j日 H:i:s');
+});
+
 // カスタム投稿追加の定義
 add_action('init', function() {
 	register_post_type('item', [
