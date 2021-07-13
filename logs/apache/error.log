@@ -20,3 +20,7 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using rikinoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
 [Mon Jul 12 08:32:36.303122 2021] [mpm_event:notice] [pid 6511:tid 4420433344] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Mon Jul 12 08:32:36.303357 2021] [core:notice] [pid 6511:tid 4420433344] AH00094: Command line: '/Users/riki/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/riki/Library/Application Support/Local/run/Irmeiriej/conf/apache/apache2.conf'
+[Mon Jul 12 09:05:25.334390 2021] [mpm_event:notice] [pid 6511:tid 4420433344] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using rikinoMacBook-Pro.local. Set the 'ServerName' directive globally to suppress this message
+[Tue Jul 13 08:36:39.824663 2021] [mpm_event:notice] [pid 7648:tid 4632860096] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Jul 13 08:36:39.826152 2021] [core:notice] [pid 7648:tid 4632860096] AH00094: Command line: '/Users/riki/Library/Application Support/Local/lightning-services/apache-2.4.43+6/bin/darwin/bin/httpd -D FOREGROUND -f /Users/riki/Library/Application Support/Local/run/Irmeiriej/conf/apache/apache2.conf'
