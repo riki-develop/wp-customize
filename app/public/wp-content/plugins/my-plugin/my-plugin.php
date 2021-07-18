@@ -43,10 +43,10 @@ add_action('init', function() {
 });
 
 // アクションフックget_headerの例：ヘッダーテンプレートが呼ばれる前に発火
-add_action('get_header', function() {
-	echo 'アクションフックが動作しました';
-});
+// add_action('get_header', function() {
+// 	echo 'アクションフックが動作しました';
+// });
 // アクションフックget_footerの例：ヘッダーテンプレートが呼ばれる前に発火
-add_action('get_footer', function() {
-	echo 'アクションフックが動作しました';
-});
+// add_action('get_footer', function() {
+// 	echo 'アクションフックが動作しました';
+// });
