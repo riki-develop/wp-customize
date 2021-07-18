@@ -22,6 +22,7 @@ add_shortcode('sum', function($atts) {
 	return $atts['x'] + $atts['y'];
 });
 
+// アクションフックinitの例：WPロード後に発火
 // カスタム投稿追加の定義
 add_action('init', function() {
 	register_post_type('item', [
@@ -39,4 +40,13 @@ add_action('init', function() {
 		'hierarchical' => true,
 		'show_in_rest' => true,
 	]);
+});
+
+// アクションフックget_headerの例：ヘッダーテンプレートが呼ばれる前に発火
+add_action('get_header', function() {
+	echo 'アクションフックが動作しました';
+});
+// アクションフックget_footerの例：ヘッダーテンプレートが呼ばれる前に発火
+add_action('get_footer', function() {
+	echo 'アクションフックが動作しました';
 });
