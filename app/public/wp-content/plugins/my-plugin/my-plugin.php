@@ -50,3 +50,8 @@ add_action('init', function() {
 // add_action('get_footer', function() {
 // 	echo 'アクションフックが動作しました';
 // });
+
+// フィルターフックの使用例
+add_filter('the_title', function($title) {
+	return '■'.$title;
+});
